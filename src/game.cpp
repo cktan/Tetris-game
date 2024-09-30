@@ -1,6 +1,7 @@
 #include "game.h"
 #include <ctime>
 #include <random>
+#include <cassert>
 
 Game::Game()
 : grid()

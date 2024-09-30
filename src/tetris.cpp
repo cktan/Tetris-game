@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cstring>
 #include <cstdlib>
+#include <cassert>
 
 bool Tetris::EventTriggered(float interval) {
     const auto currentTime = GetTime();
